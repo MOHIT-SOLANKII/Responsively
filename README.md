@@ -85,4 +85,4 @@ This project is licensed under the MIT License. For more details, see the [LICEN
 
 ## Contact
 
-For any questions, issues, or suggestions, please contact me via email at `mohitslnki773.com` or open an issue in the [GitHub repository](https://github.com/MOHIT-SOLANKII/responsively).
+For any questions, issues, or suggestions, please contact me via email at `mohitslnki773@gmail.com` or open an issue in the [GitHub repository](https://github.com/MOHIT-SOLANKII/responsively).
