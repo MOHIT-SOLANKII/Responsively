@@ -1,64 +1,88 @@
-Responsively
-Responsively is a Chrome extension designed to help developers and designers quickly test responsive web designs by resizing the browser window to various device dimensions. Whether you're testing on a phone, tablet, or desktop, or applying custom dimensions, Responsively makes it easy to see how your website adapts to different screen sizes.
+# Responsively
 
-Features
-Preset Screen Sizes: Quickly resize the browser window to common device dimensions:
-Phone: 375x667 pixels
-Tablet: 768x1024 pixels
-Desktop: 1280x800 pixels
-Custom Dimensions: Manually enter custom width and height to test unique screen sizes.
-URL Input: Enter any URL to test different pages on your website.
-Seamless Integration: The extension works directly from the browser, making it simple to test and adjust your designs.
-Installation
+**Responsively** is a Chrome extension that enables developers and designers to quickly test responsive web designs by resizing the browser window to predefined device dimensions. It offers the flexibility to switch between common screen sizes such as phones, tablets, and desktops, as well as the option to apply custom dimensions.
+
+## Features
+
+- **Preset Screen Sizes**:
+  - **Phone**: 375x667 pixels
+  - **Tablet**: 768x1024 pixels
+  - **Desktop**: 1280x800 pixels
+- **Custom Dimensions**: Input custom width and height to test specific screen sizes.
+- **URL Input**: Test any URL with the selected dimensions.
+- **Seamless Browser Integration**: Directly interact with the extension through a user-friendly popup interface.
+
+## Installation
+
 To install the Responsively Chrome extension locally:
 
-Clone the repository to your local machine:
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/MOHIT-SOLANKII/responsively.git
+    ```
 
-bash
-Copy code
-git clone https://github.com/MOHIT-SOLANKII/responsively.git
-Open Google Chrome and navigate to chrome://extensions/.
+2. **Load the Extension:**
+   - Open Google Chrome and navigate to `chrome://extensions/`.
+   - Enable **Developer mode** using the toggle in the upper-right corner.
+   - Click **Load unpacked** and select the directory where you cloned the repository.
 
-Enable "Developer mode" by toggling the switch in the upper right corner.
+3. The extension will now be available in your Chrome toolbar, ready for use.
 
-Click on "Load unpacked" and select the directory where you cloned the repository.
+## Usage
 
-The extension should now appear in your list of extensions and is ready to use.
+1. **Open the Extension:**
+   - Click the Responsively icon in your Chrome toolbar.
 
-Usage
-Click the Responsively icon in your Chrome toolbar to open the popup.
-Enter the URL of the website you want to test.
-Choose a preset screen size by clicking one of the "Phone", "Tablet", or "Desktop" buttons, or enter custom dimensions in the "Custom Dimensions" section.
-Click "Apply" to resize the browser window to the selected dimensions.
-Files
-manifest.json: Contains the configuration and metadata for the Chrome extension.
-background.js: Handles background tasks such as creating new windows with specific dimensions.
-popup.html: The user interface for the extension, displayed in a popup when the extension icon is clicked.
-popup.css: Styles the popup interface.
-popup.js: Manages user interactions in the popup and communicates with the background script.
-Development
-If you want to contribute to this project or customize it further, follow these steps:
+2. **Enter a URL:**
+   - In the popup, input the URL of the website you want to test.
 
-Fork the repository to your GitHub account.
-Create a new branch for your feature or bug fix:
-bash
-Copy code
-git checkout -b feature-name
-Make your changes and commit them with a descriptive message:
-bash
-Copy code
-git commit -m "Added new feature"
-Push your changes to your fork:
-bash
-Copy code
-git push origin feature-name
-Submit a pull request to the main repository.
-Contributing
-Contributions are welcome! Please read the CONTRIBUTING.md file for guidelines on how to contribute to this project.
+3. **Select a Screen Size:**
+   - Click on the **Phone**, **Tablet**, or **Desktop** buttons to resize the browser window to predefined dimensions.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+4. **Apply Custom Dimensions:**
+   - Enter custom width and height values in the respective fields and click **Apply**.
 
-Contact
-If you have any questions, issues, or suggestions, feel free to reach out to me via email at your-email@example.com or create an issue on the GitHub repository.
+## Project Structure
 
+- **manifest.json**: Defines the extension's configuration and metadata.
+- **background.js**: Manages background processes, including creating new windows with specified dimensions.
+- **popup.html**: The extension's user interface, shown in a popup when the extension icon is clicked.
+- **popup.css**: Styles the popup interface for a clean, user-friendly experience.
+- **popup.js**: Handles user interactions in the popup and communicates with the background script.
+
+## Development
+
+Contributions are welcome! If you'd like to contribute:
+
+1. **Fork the Repository:**
+    - Fork the repository to your GitHub account.
+
+2. **Create a New Branch:**
+    ```bash
+    git checkout -b feature-name
+    ```
+
+3. **Commit Your Changes:**
+    ```bash
+    git commit -m "Description of the feature or fix"
+    ```
+
+4. **Push to Your Fork:**
+    ```bash
+    git push origin feature-name
+    ```
+
+5. **Submit a Pull Request:**
+    - Open a pull request to the main repository.
+
+## Contributing
+
+Please review the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute to this project.
+
+## License
+
+This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
+
+## Contact
+
+For any questions, issues, or suggestions, please contact me via email at `your-email@example.com` or open an issue in the [GitHub repository](https://github.com/MOHIT-SOLANKII/responsively).
