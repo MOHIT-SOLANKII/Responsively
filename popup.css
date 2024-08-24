@@ -1,0 +1,103 @@
+body {
+    width: 240px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .url-field {
+    margin-bottom: 10px;
+  }
+  
+  .url-field label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .url-field input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .url-field input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .preset-buttons {
+    text-align: center;
+  }
+  
+  button {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #555;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .custom-dimensions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .custom-dimensions label {
+    width: 80%;
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .custom-dimensions input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .custom-dimensions input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button#custom {
+    width: 50%;
+    background-color: #28a745;
+  }
+  
+  button#custom:hover {
+    background-color: #218838;
+  }
+  

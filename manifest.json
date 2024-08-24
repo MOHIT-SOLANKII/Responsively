@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Responsively",
+    "version": "1.0",
+    "description": "Change browser window dimensions to test responsive design.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "./favicon-16x16.png",
+        "48": "./android-icon-48x48.png",
+        "120": "./apple-icon-120x120.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+      "activeTab",
+      "windows"
+    ],
+    "icons": {
+      "16": "./favicon-16x16.png",
+      "48": "./android-icon-48x48.png",
+      "120": "./apple-icon-120x120.png"
+    }
+  }
+  
